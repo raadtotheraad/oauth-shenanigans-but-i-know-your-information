@@ -23,7 +23,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <noscript>
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black text-white">
+            <p className="text-center text-lg">
+              Evil Larry needs JavaScript enabled to be able to steal your data.
+            </p>
+          </div>
+        </noscript>
+      </body>
     </html>
   );
 }
