@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "hybrid",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/discord/auth",
+      "regex": "^/api/discord/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/discord/auth(?:/)?$"
+    },
+    {
+      "page": "/api/discord/callback",
+      "regex": "^/api/discord/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/discord/callback(?:/)?$"
+    },
+    {
+      "page": "/api/discord/log-out",
+      "regex": "^/api/discord/log\\-out(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/discord/log\\-out(?:/)?$"
+    },
+    {
+      "page": "/api/github/auth",
+      "regex": "^/api/github/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/github/auth(?:/)?$"
+    },
+    {
+      "page": "/api/github/callback",
+      "regex": "^/api/github/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/github/callback(?:/)?$"
+    },
+    {
+      "page": "/api/github/log-out",
+      "regex": "^/api/github/log\\-out(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/github/log\\-out(?:/)?$"
+    },
+    {
+      "page": "/api/hackatime/auth",
+      "regex": "^/api/hackatime/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/hackatime/auth(?:/)?$"
+    },
+    {
+      "page": "/api/hackatime/callback",
+      "regex": "^/api/hackatime/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/hackatime/callback(?:/)?$"
+    },
+    {
+      "page": "/api/hackatime/log-out",
+      "regex": "^/api/hackatime/log\\-out(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/hackatime/log\\-out(?:/)?$"
+    },
+    {
+      "page": "/api/hackclub/auth",
+      "regex": "^/api/hackclub/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/hackclub/auth(?:/)?$"
+    },
+    {
+      "page": "/api/hackclub/callback",
+      "regex": "^/api/hackclub/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/hackclub/callback(?:/)?$"
+    },
+    {
+      "page": "/api/hackclub/log-out",
+      "regex": "^/api/hackclub/log\\-out(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/hackclub/log\\-out(?:/)?$"
+    },
+    {
+      "page": "/api/roblox/auth",
+      "regex": "^/api/roblox/auth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/roblox/auth(?:/)?$"
+    },
+    {
+      "page": "/api/roblox/callback",
+      "regex": "^/api/roblox/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/roblox/callback(?:/)?$"
+    },
+    {
+      "page": "/api/roblox/log-out",
+      "regex": "^/api/roblox/log\\-out(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/roblox/log\\-out(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/view/discord",
+      "regex": "^/view/discord(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/view/discord(?:/)?$"
+    },
+    {
+      "page": "/view/github",
+      "regex": "^/view/github(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/view/github(?:/)?$"
+    },
+    {
+      "page": "/view/hackatime",
+      "regex": "^/view/hackatime(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/view/hackatime(?:/)?$"
+    },
+    {
+      "page": "/view/hackclub",
+      "regex": "^/view/hackclub(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/view/hackclub(?:/)?$"
+    },
+    {
+      "page": "/view/roblox",
+      "regex": "^/view/roblox(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/view/roblox(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": true,
+    "dynamicRSCPrerender": true
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "ppr": {
+    "chain": {
+      "headers": {
+        "next-resume": "1"
+      }
+    }
+  }
+}

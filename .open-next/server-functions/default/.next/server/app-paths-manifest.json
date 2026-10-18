@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/view/discord/page": "app/view/discord/page.js",
+  "/view/github/page": "app/view/github/page.js",
+  "/view/hackatime/page": "app/view/hackatime/page.js",
+  "/view/hackclub/page": "app/view/hackclub/page.js",
+  "/view/roblox/page": "app/view/roblox/page.js"
+}

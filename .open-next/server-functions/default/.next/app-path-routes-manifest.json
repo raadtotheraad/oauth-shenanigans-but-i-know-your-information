@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/view/discord/page": "/view/discord",
+  "/view/github/page": "/view/github",
+  "/view/hackatime/page": "/view/hackatime",
+  "/view/hackclub/page": "/view/hackclub",
+  "/view/roblox/page": "/view/roblox"
+}

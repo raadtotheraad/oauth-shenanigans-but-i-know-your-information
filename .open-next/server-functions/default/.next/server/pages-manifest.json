@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/discord/auth": "pages/api/discord/auth.js",
+  "/api/discord/callback": "pages/api/discord/callback.js",
+  "/api/discord/log-out": "pages/api/discord/log-out.js",
+  "/api/github/auth": "pages/api/github/auth.js",
+  "/api/github/callback": "pages/api/github/callback.js",
+  "/api/github/log-out": "pages/api/github/log-out.js",
+  "/api/hackatime/auth": "pages/api/hackatime/auth.js",
+  "/api/hackatime/callback": "pages/api/hackatime/callback.js",
+  "/api/hackatime/log-out": "pages/api/hackatime/log-out.js",
+  "/api/hackclub/auth": "pages/api/hackclub/auth.js",
+  "/api/hackclub/callback": "pages/api/hackclub/callback.js",
+  "/api/hackclub/log-out": "pages/api/hackclub/log-out.js",
+  "/api/roblox/auth": "pages/api/roblox/auth.js",
+  "/api/roblox/callback": "pages/api/roblox/callback.js",
+  "/api/roblox/log-out": "pages/api/roblox/log-out.js",
+  "/404": "pages/404.html"
+}
