@@ -114,7 +114,7 @@ export default function Home() {
   return (
     <>
     {(discordLoggedIn || hackClubLoggedIn || hackatimeLoggedIn || robloxLoggedIn || gitHubLoggedIn) && (
-      <div className={`flex flex-row items-end justify-end bg-zinc-50 font-sans dark:bg-black px-4 py-2 mb-4 ${montserrat.className}`}>
+      <div className={`overflox-x-auto overflow-y-auto flex flex-row items-end justify-end bg-zinc-50 font-sans dark:bg-black px-4 py-2 mb-4 ${montserrat.className}`}>
         <p>
           You are logged in.
         </p>
