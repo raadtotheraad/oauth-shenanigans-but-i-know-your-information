@@ -145,7 +145,7 @@ export default function Home() {
         </button>
       </div>
       )}
-      <div className={`flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black ${montserrat.className}`}>
+      <div className={`flex flex-col flex-1 items-center justify-center px-4 py-2 bg-zinc-50 font-sans dark:bg-black ${montserrat.className}`}>
         <Image className="rounded-xl" src="/evil-larry.jpg" alt="Evil Larry" width={300} height={300}/>
         <h1 className="text-2xl font-bold mt-4">Evil Larry is DEMANDING you sign in with OAuth</h1>
         <hr className="w-full max-w-md mt-4"></hr>
